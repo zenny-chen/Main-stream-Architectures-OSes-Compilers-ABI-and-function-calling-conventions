@@ -21,7 +21,7 @@
 
 1. [各处理器架构的预定义宏](https://sourceforge.net/p/predef/wiki/Architectures/)
 1. [各操作系统的预定义宏](https://sourceforge.net/p/predef/wiki/OperatingSystems/)
-1. [各大编译器预定义宏](https://sourceforge.net/p/predef/wiki/Compilers/)（此外，微软的Clang加MS CodeGen后端编译器也同样支持**_MSC_VER**预定义宏。）
+1. [各大编译器预定义宏](https://sourceforge.net/p/predef/wiki/Compilers/)（此外，微软的Clang加MS CodeGen后端编译器也同样支持 **_MSC_VER** 预定义宏。）
 1. [Unix平台标准预定义宏](https://sourceforge.net/p/predef/wiki/Standards/)
 1. [ARMv8 - ARM](https://en.wikichip.org/wiki/arm/armv8)
 1. 在与GNU C兼容的编译工具链中，`__cplusplus`宏表示当前的编译器为C++；`__OBJC__`宏表示当前的编译器为Objective-C；`__ASSEMBLER__`宏表示当前使用的是汇编器。
