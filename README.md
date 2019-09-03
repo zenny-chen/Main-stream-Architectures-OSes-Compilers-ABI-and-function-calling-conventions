@@ -32,7 +32,7 @@
 
 首先，在所有Apple系统环境下一定有预定义宏——**`__APPLE__`**。
 
-1. 列出指定架构的所有预定义宏：`clang -arch <架构名> -E -dM - < /dev/null`。其中，*<架构名>*目前支持：`armv5`、`armv6`、`armv7`、`armv7s`、`arm64`。除此之外，当前macOS平台上Xcode自带的Apple LLVM编译器还支持这些架构：`i386`、`x86_64`、`ppc`、`ppc64`。
+1. 列出指定架构的所有预定义宏：`clang -arch <架构名> -E -dM - < /dev/null`。其中 *<架构名>* 目前支持：`armv5`、`armv6`、`armv7`、`armv7s`、`arm64`。除此之外，当前macOS平台上Xcode自带的Apple LLVM编译器还支持这些架构：`i386`、`x86_64`、`ppc`、`ppc64`。
 1. Apple平台下，除了支持`__ARM_ARCH_'V'__`这个标准的架构预定义宏之外，还支持`__ARM_ARCH`这个宏，这个宏后面跟着一个整数，指明当前ARM架构的大版本。比如，5表示ARMv5，8则表示ARM64。
 1. Apple平台下，如果当前Apple A处理器是arm64架构的话，那么它不仅支持`__aarch64__`这个标准的宏，而且还支持`__arm64__`这个宏。
 1. armv7s的版本预定义宏为：`__ARM_ARCH_7S__`。
