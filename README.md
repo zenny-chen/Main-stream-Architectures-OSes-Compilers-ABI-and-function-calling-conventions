@@ -1,4 +1,4 @@
-# Main-stream-Architectures-OSes-Compilers-ABI-and-function-calling-conventions
+# Main-stream Platform ABIs and function-calling conventions on most of Processor Architectures and Operating Systems
 各主流处理器与系统平台的ABI和函数调用约定，外加系统平台预定义的宏
 
 <br />
