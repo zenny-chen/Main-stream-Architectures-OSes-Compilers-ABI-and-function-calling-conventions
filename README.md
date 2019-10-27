@@ -19,8 +19,8 @@
 1. [System V ABI](https://wiki.osdev.org/System_V_ABI)
 1. [AMD64在System V ABI上的函数调用约定](https://www.uclibc.org/docs/psABI-x86_64.pdf)
 1. [MSVC上x64模式的函数调用约定](https://msdn.microsoft.com/en-us/library/9b372w95.aspx)
-1. [ARM（AArch32）函数调用约定](http://101.96.10.64/infocenter.arm.com/help/topic/com.arm.doc.ihi0042e/IHI0042E_aapcs.pdf)
-1. [ARM64函数调用约定](http://101.96.10.63/infocenter.arm.com/help/topic/com.arm.doc.ihi0055b/IHI0055B_aapcs64.pdf)
+1. [ARM（AArch32）函数调用约定](https://developer.arm.com/docs/ihi0042/latest/procedure-call-standard-for-the-arm-architecture-abi-2018q4-documentation)
+1. [ARM64函数调用约定](https://developer.arm.com/docs/100986/latest/procedure-call-standard-for-the-arm-64-bit-architecture-aarch64-with-sve-support)
 1. [Cx51函数声明与调用约定](http://www.keil.com/support/man/docs/c51/c51_le_funcdecls.htm)
 
 <br />
