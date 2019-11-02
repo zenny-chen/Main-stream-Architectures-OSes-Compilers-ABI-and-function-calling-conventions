@@ -10,6 +10,7 @@
 1. [Oracle Solaris x86 Assembly Language Reference Manual](https://docs.oracle.com/cd/E36784_01/html/E36859/enmzx.html#scrolltoc)
 1. In GNU Assembly Language, use Intel syntax for x86 ISA: `.intel_syntax`
 1. In GNU Assembly Language, use AT&T syntax for x86 ISA: `.att_syntax`
+1. [Understanding this part arm assembly code](https://stackoverflow.com/questions/22396214/understanding-this-part-arm-assembly-code)
 1. [Intel x87 FPU的使用基础](https://blog.csdn.net/zenny_chen/article/details/6186820)
 
 <br />
