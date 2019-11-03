@@ -18,7 +18,8 @@
 ## 各大平台的ABI与函数调用约定
 
 1. [System V ABI](https://wiki.osdev.org/System_V_ABI)
-1. [AMD64在System V ABI上的函数调用约定](https://www.uclibc.org/docs/psABI-x86_64.pdf)
+1. [x86 calling conventions](https://en.wikipedia.org/wiki/X86_calling_conventions)
+1. [System V Application Binary Interface: AMD64 Architecture Processor Supplement (With LP64 and ILP32 Programming Models) Version 1.0](https://github.com/hjl-tools/x86-psABI/wiki/x86-64-psABI-1.0.pdf)
 1. [MSVC上的函数调用约定](https://docs.microsoft.com/en-us/search/index?search=calling%20convention)
 1. [ARM（AArch32）函数调用约定](https://developer.arm.com/docs/ihi0042/latest/procedure-call-standard-for-the-arm-architecture-abi-2018q4-documentation)
 1. [ARM64函数调用约定](https://developer.arm.com/docs/100986/latest/procedure-call-standard-for-the-arm-64-bit-architecture-aarch64-with-sve-support)
