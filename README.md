@@ -23,7 +23,7 @@
 1. [MSVC上的函数调用约定](https://docs.microsoft.com/en-us/search/index?search=calling%20convention)
 1. [ARM（AArch32）函数调用约定](https://developer.arm.com/docs/ihi0042/latest/procedure-call-standard-for-the-arm-architecture-abi-2018q4-documentation)
 1. [ARM64函数调用约定](https://developer.arm.com/docs/100986/latest/procedure-call-standard-for-the-arm-64-bit-architecture-aarch64-with-sve-support)
-1. [Cx51函数声明与调用约定](http://www.keil.com/support/man/docs/c51/c51_le_funcdecls.htm)
+1. [Cx51函数声明与调用约定](http://www.keil.com/support/man/docs/c51/c51_le_funcdecls.htm)（在Keil Cx51中，针对中断例程使用`using`指定寄存器段是无效的，`using`只作用于一般C函数。）
 
 <br />
 
