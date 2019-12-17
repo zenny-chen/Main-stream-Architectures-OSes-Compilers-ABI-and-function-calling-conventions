@@ -59,6 +59,14 @@
 
 <br />
 
+#### MSVC下对各个处理器平台的宏定义
+
+1. x86: `_M_IX86`
+1. x86_64: `_M_X64`
+1. ARM: `_M_ARM`
+
+<br />
+
 ## 各编译器预定义的项目工程相关的预定义宏
 
 1. Visual Studio：`$(LocalDebuggerWorkingDirectory)`表示当前工程中用于存放源文件的主目录。
