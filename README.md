@@ -5,36 +5,36 @@
 
 ## 汇编语言相关
 
-1. [Using as——The GNU Assembler](http://ftp.gnu.org/old-gnu/Manuals/gas-2.9.1/html_chapter/as_toc.html)
-1. [AT&T Syntax versus Intel Syntax](http://ftp.gnu.org/old-gnu/Manuals/gas-2.9.1/html_chapter/as_16.html#SEC198)
-1. [Oracle Solaris x86 Assembly Language Reference Manual](https://docs.oracle.com/cd/E36784_01/html/E36859/enmzx.html#scrolltoc)
-1. In GNU Assembly Language, use Intel syntax for x86 ISA: `.intel_syntax`
-1. In GNU Assembly Language, use AT&T syntax for x86 ISA: `.att_syntax`
-1. [Understanding this part arm assembly code](https://stackoverflow.com/questions/22396214/understanding-this-part-arm-assembly-code)
-1. [Intel x87 FPU的使用基础](https://blog.csdn.net/zenny_chen/article/details/6186820)
+- [Using as——The GNU Assembler](http://ftp.gnu.org/old-gnu/Manuals/gas-2.9.1/html_chapter/as_toc.html)
+- [AT&T Syntax versus Intel Syntax](http://ftp.gnu.org/old-gnu/Manuals/gas-2.9.1/html_chapter/as_16.html#SEC198)
+- [Oracle Solaris x86 Assembly Language Reference Manual](https://docs.oracle.com/cd/E36784_01/html/E36859/enmzx.html#scrolltoc)
+- In GNU Assembly Language, use Intel syntax for x86 ISA: `.intel_syntax noprefix`
+- In GNU Assembly Language, use AT&T syntax for x86 ISA: `.att_syntax`
+- [Understanding this part arm assembly code](https://stackoverflow.com/questions/22396214/understanding-this-part-arm-assembly-code)
+- [Intel x87 FPU的使用基础](https://blog.csdn.net/zenny_chen/article/details/6186820)
 
 <br />
 
 ## 各大平台的ABI与函数调用约定
 
-1. [System V ABI](https://wiki.osdev.org/System_V_ABI)
-1. [x86 calling conventions](https://en.wikipedia.org/wiki/X86_calling_conventions)
-1. [System V Application Binary Interface: AMD64 Architecture Processor Supplement (With LP64 and ILP32 Programming Models) Version 1.0](https://github.com/hjl-tools/x86-psABI/wiki/x86-64-psABI-1.0.pdf)
-1. [MSVC上的函数调用约定](https://docs.microsoft.com/en-us/search/index?search=calling%20convention)
-1. [ARM（AArch32）函数调用约定](https://developer.arm.com/docs/ihi0042/latest/procedure-call-standard-for-the-arm-architecture-abi-2018q4-documentation)
-1. [ARM64函数调用约定](https://developer.arm.com/docs/100986/latest/procedure-call-standard-for-the-arm-64-bit-architecture-aarch64-with-sve-support)
-1. [Cx51函数声明与调用约定](http://www.keil.com/support/man/docs/c51/c51_le_funcdecls.htm)（在Keil Cx51中，针对中断例程使用`using`指定寄存器段是无效的，`using`只作用于一般C函数。）
+- [System V ABI](https://wiki.osdev.org/System_V_ABI)
+- [x86 calling conventions](https://en.wikipedia.org/wiki/X86_calling_conventions)
+- [System V Application Binary Interface: AMD64 Architecture Processor Supplement (With LP64 and ILP32 Programming Models) Version 1.0](https://github.com/hjl-tools/x86-psABI/wiki/x86-64-psABI-1.0.pdf)
+- [MSVC上的函数调用约定](https://docs.microsoft.com/en-us/search/index?search=calling%20convention)
+- [ARM（AArch32）函数调用约定](https://developer.arm.com/docs/ihi0042/latest/procedure-call-standard-for-the-arm-architecture-abi-2018q4-documentation)
+- [ARM64函数调用约定](https://developer.arm.com/docs/100986/latest/procedure-call-standard-for-the-arm-64-bit-architecture-aarch64-with-sve-support)
+- [Cx51函数声明与调用约定](http://www.keil.com/support/man/docs/c51/c51_le_funcdecls.htm)（在Keil Cx51中，针对中断例程使用`using`指定寄存器段是无效的，`using`只作用于一般C函数。）
 
 <br />
 
 ## 各大平台的预定义宏
 
-1. [各处理器架构的预定义宏](https://sourceforge.net/p/predef/wiki/Architectures/)
-1. [各操作系统的预定义宏](https://sourceforge.net/p/predef/wiki/OperatingSystems/)
-1. [各大编译器预定义宏](https://sourceforge.net/p/predef/wiki/Compilers/)（此外，微软的Clang加MS CodeGen后端编译器也同样支持 **_MSC_VER** 预定义宏。）
-1. [Unix平台标准预定义宏](https://sourceforge.net/p/predef/wiki/Standards/)
-1. [ARMv8 - ARM](https://en.wikichip.org/wiki/arm/armv8)
-1. 在与GNU C兼容的编译工具链中，`__cplusplus`宏表示当前的编译器为C++；`__OBJC__`宏表示当前的编译器为Objective-C；`__ASSEMBLER__`宏表示当前使用的是汇编器。
+- [各处理器架构的预定义宏](https://sourceforge.net/p/predef/wiki/Architectures/)
+- [各操作系统的预定义宏](https://sourceforge.net/p/predef/wiki/OperatingSystems/)
+- [各大编译器预定义宏](https://sourceforge.net/p/predef/wiki/Compilers/)（此外，微软的Clang加MS CodeGen后端编译器也同样支持 **_MSC_VER** 预定义宏。）
+- [Unix平台标准预定义宏](https://sourceforge.net/p/predef/wiki/Standards/)
+- [ARMv8 - ARM](https://en.wikichip.org/wiki/arm/armv8)
+- 在与GNU C兼容的编译工具链中，`__cplusplus`宏表示当前的编译器为C++；`__OBJC__`宏表示当前的编译器为Objective-C；`__ASSEMBLER__`宏表示当前使用的是汇编器。
 
 <br />
 
@@ -61,16 +61,16 @@
 
 #### MSVC下对各个处理器平台的宏定义
 
-1. x86: `_M_IX86`
-1. x86_64: `_M_X64`
-1. ARM: `_M_ARM`
-1. ARM64: `_M_ARM64`
+- x86: `_M_IX86`
+- x86_64: `_M_X64`
+- ARM: `_M_ARM`
+- ARM64: `_M_ARM64`
 
 <br />
 
 ## 各编译器预定义的项目工程相关的预定义宏
 
-1. Visual Studio：`$(LocalDebuggerWorkingDirectory)`表示当前工程中用于存放源文件的主目录。
-1. Xcode：`$(SRCROOT)`表示当前项目工程的根目录。`$(PROJECT_DIR)`所表示的工程路径与`$(SRCROOT)`一样。`$(PROJECT_NAME)`表示当前项目名称。
-1. CMake：`${PROJECT_SOURCE_DIR}`表示当前工程项目中用于存放源文件的主目录。在Android Studio中则是当前项目工程根目录下的**app**目录。在Android Studio的cmake中，`${ANDROID_ABI}`表示当前正在编译的ABI架构名称。
+- Visual Studio：`$(LocalDebuggerWorkingDirectory)`表示当前工程中用于存放源文件的主目录。
+- Xcode：`$(SRCROOT)`表示当前项目工程的根目录。`$(PROJECT_DIR)`所表示的工程路径与`$(SRCROOT)`一样。`$(PROJECT_NAME)`表示当前项目名称。
+- CMake：`${PROJECT_SOURCE_DIR}`表示当前工程项目中用于存放源文件的主目录。在Android Studio中则是当前项目工程根目录下的**app**目录。在Android Studio的cmake中，`${ANDROID_ABI}`表示当前正在编译的ABI架构名称。
 
