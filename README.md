@@ -22,7 +22,7 @@
 - [x86 calling conventions](https://en.wikipedia.org/wiki/X86_calling_conventions)
 - [System V Application Binary Interface: AMD64 Architecture Processor Supplement (With LP64 and ILP32 Programming Models) Version 1.0](https://github.com/hjl-tools/x86-psABI/wiki/x86-64-psABI-1.0.pdf)
 - [MSVC上的函数调用约定](https://docs.microsoft.com/en-us/search/index?search=calling%20convention)
-- [ARM（AArch32）函数调用约定](https://developer.arm.com/docs/ihi0042/latest/procedure-call-standard-for-the-arm-architecture-abi-2018q4-documentation)
+- [Procedure Call Standard for the Arm® Architecture](https://developer.arm.com/docs/ihi0042/i/procedure-call-standard-for-the-arm-architecture-abi-2019q4-documentation)
 - [Procedure Call Standard for the Arm® 64-bit Architecture](https://developer.arm.com/docs/ihi0055/d/procedure-call-standard-for-the-arm-64-bit-architecture)
 - [Procedure Call Standard for the ARM® 64-bit Architecture (AArch64) with SVE support](https://developer.arm.com/docs/100986/latest/procedure-call-standard-for-the-arm-64-bit-architecture-aarch64-with-sve-support)
 - [Cx51函数声明与调用约定](http://www.keil.com/support/man/docs/c51/c51_le_funcdecls.htm)（在Keil Cx51中，针对中断例程使用`using`指定寄存器段是无效的，`using`只作用于一般C函数。）
