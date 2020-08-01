@@ -75,5 +75,5 @@
 - Visual Studio：`$(LocalDebuggerWorkingDirectory)`表示当前工程中用于存放源文件的主目录。
 - Xcode：`$(SRCROOT)`表示当前项目工程的根目录。`$(PROJECT_DIR)`所表示的工程路径与`$(SRCROOT)`一样。`$(PROJECT_NAME)`表示当前项目名称。
 - [cmake-variables(7)](https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html)
-- CMake：`${PROJECT_SOURCE_DIR}`表示当前工程项目中用于存放源文件的主目录。在Android Studio中则是当前项目工程根目录下的**`app/src/main/cpp/`**目录。在Android Studio的cmake中，`${ANDROID_ABI}`表示当前正在编译的ABI架构名称。
+- CMake：`${PROJECT_SOURCE_DIR}`表示当前工程项目中用于存放源文件的主目录。在Android Studio中则是当前项目工程根目录下的 **`app/src/main/cpp/`** 目录。在Android Studio的cmake中，`${ANDROID_ABI}`表示当前正在编译的ABI架构名称。
 
