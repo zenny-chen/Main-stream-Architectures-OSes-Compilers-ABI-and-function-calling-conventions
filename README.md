@@ -27,6 +27,7 @@
 - [Procedure Call Standard for the Arm® Architecture](https://developer.arm.com/docs/ihi0042/i/procedure-call-standard-for-the-arm-architecture-abi-2019q4-documentation)
 - [Procedure Call Standard for the Arm® 64-bit Architecture](https://developer.arm.com/docs/ihi0055/d/procedure-call-standard-for-the-arm-64-bit-architecture)
 - [Procedure Call Standard for the ARM® 64-bit Architecture (AArch64) with SVE support](https://developer.arm.com/docs/100986/latest/procedure-call-standard-for-the-arm-64-bit-architecture-aarch64-with-sve-support)
+- [RISC-V Assembly Programmer's Manual](https://github.com/riscv-non-isa/riscv-asm-manual/blob/master/riscv-asm.md)
 - [Cx51函数声明与调用约定](http://www.keil.com/support/man/docs/c51/c51_le_funcdecls.htm)（在Keil Cx51中，针对中断例程使用`using`指定寄存器段是无效的，`using`只作用于一般C函数。）
 - **PLT**: Procedure Linkage Table
 - **PIC**: Position-Independent code
