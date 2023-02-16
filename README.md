@@ -43,6 +43,8 @@
 - [Unix平台标准预定义宏](https://sourceforge.net/p/predef/wiki/Standards/)
 - [ARMv8 - ARM](https://en.wikichip.org/wiki/arm/armv8)
 - 在与GNU C兼容的编译工具链中，`__cplusplus`宏表示当前的编译器为C++；`__OBJC__`宏表示当前的编译器为Objective-C；`__ASSEMBLER__`宏表示当前使用的是汇编器。
+- [Microsoft Predefined macros](https://learn.microsoft.com/en-us/cpp/preprocessor/predefined-macros)
+- [/Zc:__cplusplus \(Enable updated __cplusplus macro\)](https://learn.microsoft.com/en-us/cpp/build/reference/zc-cplusplus)
 
 <br />
 
