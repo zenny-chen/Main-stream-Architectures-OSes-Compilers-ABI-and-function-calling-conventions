@@ -379,3 +379,28 @@ end
 
 从上述代码我们可以看到，我们在 **ASMCallFunction** 函数中保留了32个字节的栈空间作为栈帧。由于在MSVC的Release模式下执行上面程序时，留24个字节仍然不够，32个字节正好；而在Debug模式下16个字节也没问题。因此这里就选用了32个字节作为其栈空间。另外这里再提一下，x86-64的ABI中一般规定栈指针（RSP）的值应当至少为8字节对齐。
 
+<br />
+
+## NEON中采用对齐方式的VLD/VST
+
+在ARM官方文档上给出的VLD系列的指令形式为——
+
+![instruction](images/instruction.png)
+
+而在ARM GCC中，若要使用对齐方式的话，照着上图的格式写，不管怎么写都不会正确。
+
+下面将介绍在ARM GCC中正确使用对齐方式的NEON读写方法：
+```nasm
+.text
+.align 4
+.globl my_test
+
+my_test:
+
+    vld1.32 {d0}, [r0, :64]
+    vst1.32 {d0}, [r1, :64]
+    bx      lr
+```
+上述的对齐方式为64位，即8字节对齐。
+
+
