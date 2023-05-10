@@ -395,6 +395,8 @@ end
 .align 4
 .globl my_test
 
+.arm
+
 my_test:
 
     vld1.32 {d0}, [r0, :64]
