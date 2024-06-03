@@ -99,7 +99,7 @@ set(CMAKE_ASM_FLAGS "-march=armv8.2-a+fp16 ${CMAKE_ASM_FLAGS}")
 - [NASM](https://nasm.us/)：**`.asm`**
 - [Yasm](https://yasm.tortall.net/)：**`.asm`**
 - [GAS](https://ftp.gnu.org/old-gnu/Manuals/gas-2.9.1/html_node/as_3.html)：**`.S`**（大写的 **S** 兼容性最佳）
-- [llvm-as](https://llvm.org/docs/CommandGuide/llvm-as.html)：**`.ll`**
+- [llvm-as](https://llvm.org/docs/CommandGuide/llvm-as.html)：**`.ll`** （LLVM-as 输出的 bitcode 文件名后缀为 **`.bc`**）
 
 <br />
 
