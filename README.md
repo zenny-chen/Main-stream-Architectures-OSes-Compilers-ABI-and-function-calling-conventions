@@ -93,6 +93,16 @@ set(CMAKE_ASM_FLAGS "-march=armv8.2-a+fp16 ${CMAKE_ASM_FLAGS}")
 
 <br />
 
+## 各种汇编器所支持的汇编文件后缀名
+
+- [MASM](https://learn.microsoft.com/en-us/cpp/assembler/masm/microsoft-macro-assembler-reference)：**`.asm`**
+- [NASM](https://nasm.us/)：**`.asm`**
+- [Yasm](https://yasm.tortall.net/)：**`.asm`**
+- [GAS](https://ftp.gnu.org/old-gnu/Manuals/gas-2.9.1/html_node/as_3.html)：**`.S`**（大写的 **S** 兼容性最佳）
+- [llvm-as](https://llvm.org/docs/CommandGuide/llvm-as.html)：**`.ll`**
+
+<br />
+
 ## 各平台汇编语言写法
 
 - MASM x86
