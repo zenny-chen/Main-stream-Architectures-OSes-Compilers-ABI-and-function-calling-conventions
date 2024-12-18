@@ -32,6 +32,8 @@
 - **PLT**: Procedure Linkage Table
 - **PIC**: Position-Independent code
 - **GOT**: Global Offset Table
+- [libffi](https://github.com/libffi/libffi)
+- [libffi-dev docs](https://www.chiark.greenend.org.uk/doc/libffi-dev/html/Index.html)
 
 <br />
 
