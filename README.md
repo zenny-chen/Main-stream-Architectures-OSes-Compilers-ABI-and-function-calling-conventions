@@ -34,6 +34,7 @@
 - **GOT**: Global Offset Table
 - [libffi](https://github.com/libffi/libffi)
 - [libffi-dev docs](https://www.chiark.greenend.org.uk/doc/libffi-dev/html/Index.html)
+- Ubuntu 系统下，**libffi** 被安装在 **`/usr/local/`** 目录下。其中，**libffi.a** 放在了 `/usr/local/lib/` 目录下；**`ffi.h`** 放在了 `/usr/local/include/` 目录下。
 
 <br />
 
