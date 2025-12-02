@@ -35,6 +35,7 @@
 - [libffi](https://github.com/libffi/libffi)
 - [libffi-dev docs](https://www.chiark.greenend.org.uk/doc/libffi-dev/html/Index.html)
 - Ubuntu 系统下，**libffi** 被安装在 **`/usr/local/`** 目录下。其中，**libffi.a** 放在了 `/usr/local/lib/` 目录下；**`ffi.h`** 放在了 `/usr/local/include/` 目录下。
+- [C语言函数调用栈(一)](https://www.cnblogs.com/clover-toeic/p/3755401.html)（其中包含比较具体详细的关于栈帧（Stack Frame）相关信息。这里头有个图中提到的“**Caller-saved Registers**”表示调用另一个函数时需要为当前临时寄存器的保存所预留出来的栈空间。）
 
 <br />
 
