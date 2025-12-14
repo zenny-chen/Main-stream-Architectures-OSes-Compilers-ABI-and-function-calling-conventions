@@ -16,6 +16,13 @@
 - [Microsoft Macro Assembler reference](https://docs.microsoft.com/en-us/cpp/assembler/masm/microsoft-macro-assembler-reference)
 - [一编关于MASM宏macro的用法](https://blog.csdn.net/G_Spider/article/details/6368373)
 - [NASM中的多行宏定义:"%macro"](https://blog.csdn.net/yuduoluogongwu/article/details/7409576)
+- MASM中声明外部函数使用：[EXTERN](https://learn.microsoft.com/en-us/cpp/assembler/masm/extern-masm?view=msvc-170)。比如：
+
+```nasm
+; int CIncFunc(int a)
+extern CIncFunc : proc
+```
+
 - [Intel x87 FPU的使用基础](https://blog.csdn.net/zenny_chen/article/details/121045282)
 
 <br />
